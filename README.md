@@ -1,4 +1,4 @@
-# Writeup PicoCTF
+# PicoCTF Writeup
 
 writeup created as an archive in working on the picoCTF challenge.
 

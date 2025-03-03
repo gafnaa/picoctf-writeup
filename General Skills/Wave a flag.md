@@ -11,13 +11,13 @@ warm: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linke
 ```
 
 Run the file
-```
+```bash
 $ chmod +x warm
 $ ./warm
 Hello user! Pass me a -h to learn what I can do!
 ```
 It seems, we have to run with -h parameter
-```
+```bash
 $ ./warm -h
 Oh, help? I actually don't do much, but I do have this flag here: picoCTF{b1scu1ts_4nd_gr4vy_f0668f62}
 ```

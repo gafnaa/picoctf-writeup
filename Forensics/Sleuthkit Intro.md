@@ -17,7 +17,7 @@ $ gzip -d disk.img.gz
 
 Then, use ```mmls``` on file to find the size of the linux partition
 
-```
+```bash
 $ mmls disk.img
 DOS Partition Table
 Offset Sector: 0
@@ -31,7 +31,7 @@ Units are in 512-byte sectors
 
 Access checker program, then input the lenght size of Linux partition
 
-```
+```bash
 $ nc saturn.picoctf.net 51732
 What is the size of the Linux partition in the given disk image?
 Length in sectors: 202752

@@ -7,7 +7,7 @@
 
 I'm too lazy to explain, the point is these are the steps to solve it
 
-```
+```bash
 $ gzip -d disk.flag.img.gz
 
 ┌──(gafnaa㉿WIN-VQ99FOIVV68)-[/tmp/sleuthkit-appr]

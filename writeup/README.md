@@ -1,6 +1,6 @@
 # PicoCTF Writeup
 
-writeup created as an archive in working on the picoCTF challenge.
+writeup created as an archive in working on the picoCTF challenge (2019-2024).
 
 ## Tools
 

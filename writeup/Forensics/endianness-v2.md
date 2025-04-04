@@ -24,15 +24,15 @@ Warning                         : Processing JPEG-like data after unknown 1-byte
 
 Then, i checked the hex code of the file and comparing it with the original jpg file.
 
-![endian](/assets/endian.PNG)
+![endian](picoCTF/assets/endian.PNG)
 
 It is known that in the header of the file the hex code is swapped so that the file format becomes damaged. Then, we can fix it by swapping it manually but here I use `cyberchef` to help me.
 
-![endian2](/assets/endian2.PNG)
+![endian2](picoCTF/assets/endian2.PNG)
 
 After that, you can save it to .jpg format, then open it to see the flag.
 
-![flag](/assets/flag.jpg)
+![flag](picoCTF/assets/flag.jpg)
 
 ## Flag
     picoCTF{cert!f1Ed_iNd!4n_sOrrY_3nDian_004850bf}
